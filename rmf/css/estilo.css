@@ -1,0 +1,122 @@
+* {
+		  box-sizing: border-box;
+		}
+
+		body {
+			background: url("flores.jpg") no-repeat top center fixed;
+    	background-size: cover;
+		  font-family: Arial, Helvetica, sans-serif;
+		  color: white;
+		}
+
+		/* Style the header */
+		header {
+			background: url("flores.jpg") no-repeat top center fixed;
+    	background-size: cover;
+		  padding: 10px;
+		  text-align: center;
+		  font-size: 20px;
+		  color: white;
+		}
+
+		/* Container for flexboxes */
+		section {
+			background: url("flores.jpg") no-repeat top center fixed;
+    	background-size: cover;
+		  display: -webkit-flex;
+		  display: flex;
+		}
+
+		/* Style the navigation menu */
+		nav {
+			background: url("flores.jpg") no-repeat top center fixed;
+    	background-size: cover;
+		  -webkit-flex: 1;
+		  -ms-flex: 1;
+		  flex: 1;
+		  padding: 20px;
+		}
+
+		/* Style the list inside the menu */
+		nav ul {
+			background: url("flores.jpg") no-repeat top center fixed;
+    	background-size: cover;
+		  list-style-type: none;
+		  padding: 0;
+		}
+
+		/* Style the content */
+		article {
+			background: url("flores.jpg") no-repeat top center fixed;
+    	background-size: cover;
+		  -webkit-flex: 3;
+		  -ms-flex: 3;
+		  flex: 3;
+		  padding: 19px;
+		}
+
+		/* Style the footer */
+		footer {
+		  background: url("flores.jpg") no-repeat top center fixed;
+    	background-size: cover;
+		  padding: 10px;
+		  text-align: center;
+		  color: white;
+		}
+
+		/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+		@media (max-width: 600px) {
+		  section {
+	  	background: url("flores.jpg") no-repeat top center fixed;
+  		background-size: cover;
+	    -webkit-flex-direction: column;
+	    flex-direction: column;
+		  }
+		}
+
+		ul#menu {
+			background: url("flores.jpg") no-repeat top center fixed;
+    	background-size: cover;
+		  list-style-type: none;
+		  margin: 0;
+		  padding: 0;
+		  width: 200px;
+}
+
+		ul#menu li a {
+			background: url("flores.jpg") no-repeat top center fixed;
+		  background-size: cover;
+		  display: block;
+		  color: #000;
+		  padding: 8px 16px;
+		  text-decoration: none; //cor das letras do menu
+}
+
+			ul#menu li a.active {
+			  background-color: #9370DB;
+			  color: white;
+			}
+			  input[type=text],input[type=date],input[type=number],input[type=password], select {
+			  width: 100%;
+			  padding: 12px 20px;
+			  margin: 8px 0;
+			  display: inline-block;
+			  border: 1px solid #ccc;
+			  border-radius: 4px;
+			  box-sizing: border-box;
+			}
+
+			input[type=submit] {
+			  width: 100%;
+			  background-color: #8A2BE2;
+			  color: white;
+			  padding: 14px 20px;
+			  margin: 8px 0;
+			  border: none;
+			  border-radius: 4px;
+			  cursor: pointer;
+			}
+
+			input[type=submit]:hover {
+			  background-color: #4B0082;
+			}
